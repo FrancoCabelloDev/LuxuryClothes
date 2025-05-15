@@ -6,13 +6,13 @@ function NewPassword() {
         <div className="flex h-screen">
             {/* Imagen de Fondo */}
             <div
-                className="w-1/2 bg-cover"
+                className="hidden lg:block w-1/2 bg-cover"
                 style={{ backgroundImage: "url('fashion.JPG')" }}
             ></div>
 
             {/* Formulario de Nueva Contraseña */}
-            <div className="w-1/2 flex justify-center items-center bg-white">
-                <div className="w-96 p-8 shadow-md rounded-md">
+            <div className="w-full lg:w-1/2 flex justify-center items-center bg-white">
+                <div className="w-11/12 sm:w-96 p-8 shadow-md rounded-md">
                     {/* Título */}
                     <h2 className="text-4xl font-bold mb-4 text-gray-800">LuxuryClothes</h2>
                     <h3 className="text-xl mb-6 text-gray-600">Enter Your New Password</h3>

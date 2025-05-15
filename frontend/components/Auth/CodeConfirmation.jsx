@@ -6,15 +6,15 @@ function CodeConfirmation() {
         <div className="flex h-screen">
             {/* Imagen de Fondo */}
             <div
-                className="w-1/2 bg-cover"
+                className="hidden lg:block w-1/2 bg-cover"
                 style={{
                     backgroundImage: "url('fashion.JPG')"
                 }}
             />
 
             {/* Formulario de Confirmación */}
-            <div className="w-1/2 flex justify-center items-center bg-white">
-                <div className="w-96 p-8 shadow-md rounded-md">
+            <div className="w-full lg:w-1/2 flex justify-center items-center bg-white">
+                <div className="w-11/12 sm:w-96 p-8 shadow-md rounded-md">
                     <h2 className="text-4xl font-bold mb-4 text-gray-800">LuxuryClothes</h2>
                     <h3 className="text-xl mb-6 text-gray-600">Enter The Confirmation Code</h3>
 
@@ -30,7 +30,7 @@ function CodeConfirmation() {
                     </form>
 
                     <p className="text-center text-sm">
-                        Didn’t receive Confirmation Code?{" "}
+                        ¿No recibiste un código de confirmación?{" "}
                         <a href="/forget-password" className="text-blue-500 hover:underline">
                             Resend Now
                         </a>
