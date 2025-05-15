@@ -49,8 +49,8 @@ function Login() {
 
                     {/* Links de Registro y Recuperación */}
                     <div className="flex justify-between mt-4">
-                        <a href="#" className="text-blue-500 hover:underline">Register Now</a>
-                        <a href="#" className="text-blue-500 hover:underline">Forgot Password?</a>
+                        <a href="/register" className="text-blue-500 hover:underline">Register Now</a>
+                        <a href="/forgetpassword" className="text-blue-500 hover:underline">Forgot Password?</a>
                     </div>
                 </div>
             </div>
